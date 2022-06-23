@@ -9,7 +9,8 @@ body {
     color: white;    
     display: grid;
     place-items: center; 
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    color: #e0e0ff;
 }
 main { 
     background: url(mask.png); 
@@ -22,6 +23,7 @@ main p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    
 }
 .container {
     margin-top: 140px;
@@ -33,7 +35,7 @@ img {
 section {
     margin: 40px 0px;
 }
-.redes {
+#socialLinks {
     display: flex;
     gap: 0.5rem;
     justify-content: center;

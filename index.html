@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -19,20 +20,44 @@
 
             <section>
                 <h1>Patricia Silva</h1>
+                <p>patriciasilva.dev@gmail.com</p><br>
                 <p>Tech, Dev e Nerd desenhando os personagens mais tops da galaxia!</p>
             </section>
 
             <section>
-                <ul class="redes">                
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Github</a> </li>
-                    <li><a href="">Linkedin</a> </li>
+                <ul id="socialLinks">                
+                    <li class="github"><a href="https://github.com/patriciasilvadev" target="_blank"><i class="fa fa-github-square" style="font-size:36px;color:#ff00aa"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/patms_/" target="_blank"><i class="fa fa-instagram" style="font-size:36px;color:#9c42f5"></i></a> </li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/patricia-silva-dev/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px;color:#5d2df1"></i></a> </li>
                 </ul>
             </section>       
 
         </div>
 
     </main>
+
+    <script>
+
+        //variavel com as redes sociais que serão apresentadas:
+        const LinksSocialMedia = {
+            github: 'patriciasilva',
+            instagram: 'patms_',
+            linkedin: 'patricia-silva-dev'
+        }
+
+        //Função para adicionar as redes sociais da variavel no cartao virtual
+
+        function changeSocialMediaLinks() {
+            for (let li of socialLinks.children){
+                const social = li.getAttribute('class')
+
+                li.childrem[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
+                
+                alert(li.children[0].href)
+            }
+    }      
+
+    </script>
 
     
     
