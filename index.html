@@ -15,13 +15,13 @@
         <div class="container">
 
             <header>
-                <img src="profile.jpg" alt="patricia">
+                <img alt="patricia" id="userImage">
             </header>
 
             <section>
-                <h1>Patricia Silva</h1>
+                <h1 id="userName"></h1>
                 <p>patriciasilva.dev@gmail.com</p><br>
-                <p>Tech, Dev e Nerd desenhando os personagens mais tops da galaxia!</p>
+                <p id="userBio"></p>
             </section>
 
             <section>
@@ -36,30 +36,12 @@
 
     </main>
 
-    <script>
+ 
 
-        //variavel com as redes sociais que serão apresentadas:
-        const LinksSocialMedia = {
-            github: 'patriciasilva',
-            instagram: 'patms_',
-            linkedin: 'patricia-silva-dev'
-        }
+    <script src="script.js">
 
-        //Função para adicionar as redes sociais da variavel no cartao virtual
-
-        function changeSocialMediaLinks() {
-            for (let li of socialLinks.children){
-                const social = li.getAttribute('class')
-
-                li.childrem[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
-                
-                alert(li.children[0].href)
-            }
-    }      
-
+     
     </script>
-
-    
     
 </body>
 </html>
