@@ -1,17 +1,16 @@
+function toggleMode() {
+  const html = document.documentElement
+  html.classList.toggle("light")
 
-// crie a função
-function getGithubProfileInfos() {
-    const url = `https://api.github.com/users/patriciasilvadev`
+  // pegar a tag img
+  const img = document.querySelector("#profile img")
 
-    // crie o alerta
-    fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        userImage.src = data.avatar_url 
-        userName.textContent = data.name
-        userBio.textContent = data.bio
-    })
-    
+  // substituir a imagem
+  if (html.classList.contains("light")) {
+    // se tiver light mode, adicionar a imagem light
+    img.setAttribute("src", "./assets/avatar.jpg")
+  } else {
+    // set tiver sem light mode, manter a imagem normal
+    img.setAttribute("src", "./assets/avatar.jpg")
+  }
 }
-
-getGithubProfileInfos() // chame a função
