@@ -89,4 +89,4 @@ Se quiser trocar uma ideia, me chama:
 - LinkedIn: Patrícia Silva Dev
 - GitHub: patriciasilvadev
 
-<p align="center">Feito com 🩷 por <strong>Patrícia Silva</strong></p> ```
+<p align="center">Feito com 🩷 por <strong>Patrícia Silva</strong></p>
