@@ -77,9 +77,9 @@ Durante o desenvolvimento, aprendi:
 ## 🚀 Como rodar localmente
 
 ```bash
-git clone https://github.com/patriciasilvadev/link-tree
+git clone https://github.com/patriciasilvadev/patriciasilvadev.github.io
 ```
-cd 
+cd patriciasilvadev.github.io
 abra o arquivo index.html no navegador
 
 ## 💌 Contato
