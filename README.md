@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Patricia Silva - Link Tree</h1>
+<h1 align="center">🌐 Patricia Silva - Página de Links</h1>
 
 <p align="center">
   Página pessoal com links rápidos e interface responsiva, feita com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> 💻.
@@ -79,7 +79,7 @@ Durante o desenvolvimento, aprendi:
 ```bash
 git clone https://github.com/patriciasilvadev/link-tree
 ```
-cd link-tree
+cd 
 abra o arquivo index.html no navegador
 
 ## 💌 Contato
