@@ -85,6 +85,8 @@ abra o arquivo index.html no navegador
 ## 💌 Contato
 Se quiser trocar uma ideia, me chama:
 
-Instagram: @patriciasilvadev.io
-LinkedIn: Patrícia Silva Dev
-GitHub: patriciasilvadev
+- Instagram: @patriciasilvadev.io
+- LinkedIn: Patrícia Silva Dev
+- GitHub: patriciasilvadev
+
+<p align="center">Feito com 🩷 por <strong>Patrícia Silva</strong></p> ```
