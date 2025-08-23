@@ -218,3 +218,21 @@ footer {
 }
 
 
+/* === Page Setup === */
+.setup-session {
+  display: flex;
+  margin-top: 10px;
+}
+.setup-img {
+  margin: 0 10px;
+}
+.setup-img img {
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+}
+.setup-description p {
+  opacity: 70%;
+
+}
+
+
